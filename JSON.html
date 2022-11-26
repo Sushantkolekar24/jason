@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASON EXAMPLE</title>
+
+</head>
+<body>
+     
+    <h1>JASON EXAMPLE</h1>
+     
+    
+
+
+ <script>
+   
+ const mydetails ='{"School Name":"HUME HIGH SCHOOL","Year":2012, "Rank In City":1,"No Of Students Stydying": 1000}';
+
+ const a = JSON.parse(mydetails);
+
+ for(keys in a ){   
+
+    document.write(keys + ' ' + '= '+ a[keys]+ '<br>'+ '<br>')
+ }
+
+
+
+
+ </script>
+
+</body>
+</html>
